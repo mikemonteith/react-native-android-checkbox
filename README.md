@@ -41,7 +41,7 @@ Add the package to your ReactInstanceManager
 *MainActivity.java*
 ```java
 
-//import chart package (usually, your IDE will do this for you)
+//import package (usually, your IDE will do this for you)
 import com.mikemonteith.reactnativeandroidcheckbox.CheckboxPackage;
 
 // ...
