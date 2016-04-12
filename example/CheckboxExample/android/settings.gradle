@@ -1,0 +1,6 @@
+rootProject.name = 'CheckboxExample'
+
+include ':app'
+
+include ':react-native-checkbox'
+project(':react-native-checkbox').projectDir = new File(rootProject.projectDir, '../../../android')
