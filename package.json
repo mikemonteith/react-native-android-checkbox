@@ -3,15 +3,16 @@
   "version": "0.0.1",
   "description": "Checkbox component for React Native",
   "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikemonteith/react-native-android-checkbox"
+  },
   "keywords": [
     "Checkbox",
-    "React Native"
+    "react-native"
   ],
   "author": "Mike Monteith <mike@mikemonteith.com>",
   "license": "ISC"
