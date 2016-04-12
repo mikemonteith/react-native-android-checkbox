@@ -31,7 +31,7 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.facebook.react:react-native:+' // From node_modules
-    compile project(':react-native-checkbox')
+    compile project(':react-native-android-checkbox')
 }
 
 ```
