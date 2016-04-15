@@ -2,9 +2,11 @@
 
 A React Native checkbox using the stock android widget
 
+![Checkbox Example App](./example/screencast.gif)
+
 ## Installation
 
-#### Install the node package
+#### Install the npm package
 
 `npm install --save react-native-android-checkbox`
 
