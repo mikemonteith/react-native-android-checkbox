@@ -1,4 +1,4 @@
-package mikemonteith.com.reactnativeandroidcheckbox;
+package com.mikemonteith.reactnativeandroidcheckbox;
 
 import android.content.Context;
 import android.widget.CheckBox;

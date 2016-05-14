@@ -1,4 +1,4 @@
-package mikemonteith.com.reactnativeandroidcheckbox;
+package com.mikemonteith.reactnativeandroidcheckbox;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mikemonteith.com.reactnativeandroidcheckbox">
+    package="com.mikemonteith.reactnativeandroidcheckbox">
 
     <application
         android:allowBackup="true"

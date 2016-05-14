@@ -1,4 +1,4 @@
-package mikemonteith.com.reactnativeandroidcheckbox;
+package com.mikemonteith.reactnativeandroidcheckbox;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableMap;
