@@ -1,12 +1,12 @@
 'use strict';
 
-var React = require('react-native');
+import React, { Component } from 'react';
 
-var {
-  View,
-  StyleSheet,
-  requireNativeComponent,
-} = React;
+import {
+    View,
+    StyleSheet,
+    requireNativeComponent,
+} from 'react-native';
 
 class Checkbox extends React.Component {
   constructor() {
@@ -38,7 +38,7 @@ class Checkbox extends React.Component {
 }
 
 Checkbox.propTypes = {
-  ...React.View.propTypes,
+  ...View.propTypes,
 
   /**
    * is the checkbox checked. Default false
