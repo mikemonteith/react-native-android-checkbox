@@ -72,8 +72,10 @@ var React = require('react-native');
 var Checkbox = require('react-native-android-checkbox');
 
 var ExampleComponent = React.createClass({
-  getInitialState: {
-    value: false,
+  getInitialState: function(){
+    return {
+      value: false,
+    }
   },
 
   _onValueChange: function(value){
