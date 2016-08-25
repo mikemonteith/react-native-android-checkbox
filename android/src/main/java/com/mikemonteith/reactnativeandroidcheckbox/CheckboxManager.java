@@ -50,4 +50,9 @@ public class CheckboxManager extends SimpleViewManager<CheckBoxView> {
         checkbox.setOn(on);
         checkbox.setOnCheckedChangeListener(checkedListener);
     }
+
+    @ReactProp(name = "disabled", defaultBoolean = false)
+    public void setEnabled(CheckBoxView checkbox, boolean disabled) {
+        checkbox.setEnabled(!disabled);
+    }
 }
