@@ -86,6 +86,7 @@ var ExampleComponent = React.createClass({
     return (
       <Checkbox
         value={this.state.value}
+        disabled={false}
         onValueChange={this._onValueChange}
       />
     );
