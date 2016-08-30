@@ -21,7 +21,6 @@ public class CheckboxManager extends SimpleViewManager<CheckBoxView> {
                     reactContext.getNativeModule(UIManagerModule.class).getEventDispatcher().dispatchEvent(
                             new CheckboxEvent(
                                     buttonView.getId(),
-                                    SystemClock.nanoTime(),
                                     isChecked));
                 }
 
