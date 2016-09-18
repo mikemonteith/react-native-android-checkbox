@@ -12,7 +12,7 @@ public class CheckboxEvent extends Event<CheckboxEvent> {
     private final boolean mIsChecked;
 
     public CheckboxEvent(int viewId, long timestampMs, boolean isChecked) {
-        super(viewId, timestampMs);
+        super(viewId);
         mIsChecked = isChecked;
     }
 

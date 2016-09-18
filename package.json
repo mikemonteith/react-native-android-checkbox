@@ -1,6 +1,6 @@
 {
   "name": "react-native-android-checkbox",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Checkbox component for React Native",
   "main": "index.js",
   "scripts": {

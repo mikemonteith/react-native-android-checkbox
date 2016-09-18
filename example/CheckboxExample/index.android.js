@@ -3,13 +3,14 @@
  * https://github.com/facebook/react-native
  */
 
-import React, {
+import {
   AppRegistry,
-  Component,
   StyleSheet,
   Text,
   View
 } from 'react-native';
+
+import React, {Component} from 'react';
 
 var Checkbox = require('react-native-android-checkbox');
 
