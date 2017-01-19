@@ -1,9 +1,9 @@
 package com.mikemonteith.reactnativeandroidcheckbox;
 
 import android.content.Context;
-import android.widget.CheckBox;
+import android.support.v7.widget.AppCompatCheckBox;
 
-public class CheckBoxView extends CheckBox {
+public class CheckBoxView extends AppCompatCheckBox {
 
     private boolean mAllowChange;
 
