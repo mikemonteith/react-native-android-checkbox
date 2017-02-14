@@ -1,6 +1,7 @@
 package com.mikemonteith.reactnativeandroidcheckbox;
 
 import android.widget.CompoundButton;
+import android.content.ContextWrapper;
 
 import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.uimanager.UIManagerModule;
