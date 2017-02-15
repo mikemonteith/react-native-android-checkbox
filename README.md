@@ -71,25 +71,24 @@ The checkbox component works in exactly the same way as React.Switch
 var React = require('react-native');
 var Checkbox = require('react-native-android-checkbox');
 
-var ExampleComponent = React.createClass({
-  getInitialState: function(){
-    return {
-      value: false,
+class ExampleComponent extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      value: false
     }
-  },
+  }
 
-  _onValueChange: function(value){
-    this.setState({value});
-  },
-
-  render: function(){
+  render() {
     return (
       <Checkbox
         value={this.state.value}
         disabled={false}
-        onValueChange={this._onValueChange}
+        onValueChange={(value) => {
+          this.setState({ value })
+        }}
       />
-    );
-  },
-});
+    )
+  }
+}
 ```

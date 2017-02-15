@@ -12,7 +12,7 @@ import {
 
 import React, {Component} from 'react';
 
-var Checkbox = require('react-native-android-checkbox');
+import Checkbox from 'react-native-android-checkbox'
 
 class CheckboxExample extends Component {
   constructor() {

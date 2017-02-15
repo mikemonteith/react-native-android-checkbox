@@ -1,4 +1,3 @@
-'use strict';
 
 import React, {Component, PropTypes} from 'react';
 
@@ -21,7 +20,7 @@ class Checkbox extends Component {
       this._checkboxComponent.setNativeProps({on: this.props.value});
     }
   }
-  
+
   render() {
     return (
       <View style={this.props.style}>
@@ -53,15 +52,15 @@ Checkbox.defaultProps = {
   disabled: false,
 };
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   checkbox: {
     height: 32,
     width: 32,
   },
 });
 
-var CheckboxComponent = requireNativeComponent('Checkbox', Checkbox, {
+const CheckboxComponent = requireNativeComponent('Checkbox', Checkbox, {
   nativeOnly: { onChange: true, on: true }
 });
 
-module.exports = Checkbox;
+export default Checkbox;
