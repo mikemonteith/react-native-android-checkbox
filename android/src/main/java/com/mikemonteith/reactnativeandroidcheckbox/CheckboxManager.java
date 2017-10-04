@@ -1,5 +1,7 @@
 package com.mikemonteith.reactnativeandroidcheckbox;
 
+import android.content.res.ColorStateList;
+import android.support.annotation.Nullable;
 import android.widget.CompoundButton;
 import android.content.ContextWrapper;
 
@@ -53,5 +55,22 @@ public class CheckboxManager extends SimpleViewManager<CheckBoxView> {
     @ReactProp(name = "disabled", defaultBoolean = false)
     public void setEnabled(CheckBoxView checkbox, boolean disabled) {
         checkbox.setEnabled(!disabled);
+    }
+
+    @ReactProp(name = "tintColor", customType = "Color")
+    public void setTintColor(CheckBoxView checkbox, @Nullable Integer color) {
+        if (color != null) {
+            ColorStateList colorStateList = new ColorStateList(
+                    new int[][]{
+                            new int[]{},
+                    },
+                    new int[]{
+                            color,
+                    }
+            );
+            checkbox.setButtonTintList(colorStateList);
+        } else {
+            checkbox.setButtonTintList(null);
+        }
     }
 }
