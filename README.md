@@ -38,6 +38,7 @@ class ExampleComponent extends React.Component {
         onValueChange={(value) => {
           this.setState({ value })
         }}
+        tintColor="#C14C4E"
       />
     )
   }

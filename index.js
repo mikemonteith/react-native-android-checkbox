@@ -45,6 +45,7 @@ Checkbox.propTypes = {
    */
   value: React.PropTypes.bool,
   disabled: React.PropTypes.bool,
+  tintColor: React.PropTypes.string,
 };
 
 Checkbox.defaultProps = {
