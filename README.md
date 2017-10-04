@@ -1,3 +1,8 @@
+# Deprecation Notice
+
+React Native now has it's own [CheckBox](https://facebook.github.io/react-native/docs/checkbox.html) component as of version 0.49.
+This library will continue to exist, but will not receive updates. You should use the native component.
+
 # react-native-android-checkbox
 
 A React Native checkbox using the stock android widget
